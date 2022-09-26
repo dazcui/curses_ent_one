@@ -135,3 +135,11 @@ user_id
 'teacher',
 'c62e8f24-b62a-4783-869d-8a03d82b50ed'
 );
+
+
+select * from users;
+select * from roles;
+select * from curses;
+select * from categories;
+select * from curse_videos;
+select * from curses c join curse_videos v on c.id = v.curse_id;
